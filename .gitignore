@@ -1,6 +1,14 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+<apex:page standardController="Task" renderAs="pdf" standardstylesheets="true">
+<html>
+  <head>
+  <style type="text/css">
+    input {
+        visibility: hidden; 
+    } 
+  </style>
+      <link class="user" href="/sCSS/25.0/sprites/1344358478000/Theme3/default/gc/common.css" rel="stylesheet" type="text/css"/>
+      <link class="user" href="/sCSS/25.0/sprites/1344358478000/Theme3/default/gc/extended.css" rel="stylesheet" type="text/css"/>
+ </head>
+ </html>
+<apex:detail relatedList="True"/>
+</apex:page>
